@@ -82,7 +82,7 @@ Here we can see the results of our scan and as expected, It was full ov dangerou
 
 In this step I exported our findings in the format of a report - this step gave me insight on how vulnerability reports can be structured in life. You can see below all of the vulnerabilites found and in the actual report it was many pages long! 
 
-![Nessus-project 12](https://github.com/JWALL000/Nessus/blob/main/Step%2011%20-%20Results%20of%20scan.PNG)
+![Nessus-project 12](https://github.com/JWALL000/Nessus/blob/main/Step%2012%20-%20Report%201.PNG)
 
 
 ## Conclusion 
