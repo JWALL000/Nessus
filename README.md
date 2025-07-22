@@ -30,7 +30,7 @@ Next, I had to wait for Nessus to finish initializing - This step required some 
 
 ## Step 5. 
 
-After all the plugins for Nessus were finished installing, we were ready to start scanning. 
+After all the plugins for Nessus were finished installing, I was ready to start scanning. 
 
 ![Nessus-project 5 ](https://github.com/JWALL000/Nessus/blob/main/Step%205%20-%20After%20plugins%20were%20finished%20installing.PNG)
 
@@ -47,7 +47,7 @@ I then waited for Nessus to finish scanning.
 
 ![Nessus-project 7 ](https://github.com/JWALL000/Nessus/blob/main/Step%207%20-%20Vulnerabilities%20show%20up.PNG)
 
-Now we can see our results. But I came to find out later on that this was indeed not a full scan - I fixed this issue later but It gave me an idea of how Nessus scans were carried out. 
+Now I could see my results. But I came to find out later on that this was indeed not a full scan - I fixed this issue later but It gave me an idea of how Nessus scans were carried out. 
 
 ![Nessus-project 8 ](https://github.com/JWALL000/Nessus/blob/main/Step%208%20-%20Scan%20still%20running%20-%20finding%20more%20severe%20vulnerabilites%20and%20giving%20them%20a%20CVSS%20score.PNG)
 
@@ -74,7 +74,7 @@ The IP below states it is 10.0.2.15 - but after I changed my network settings to
 
 ## Step 10. 
 
-Here we can see the results of our scan and as expected, It was full of dangerous vulnerabilities with high CVSS scores. 
+Here I could see the results of my scan and as expected, It was full of dangerous vulnerabilities with high CVSS scores. 
 
 ![Nessus-project 11](https://github.com/JWALL000/Nessus/blob/main/Step%2011%20-%20Results%20of%20scan.PNG)
 
