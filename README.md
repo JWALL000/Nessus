@@ -18,7 +18,7 @@ After this, Nessus started unpacking.
 
 ## Step 3. 
 
-Next, I opened the web UI for Nessus, It was time to make a Tenable account for Nessus. In this Project I used Nessus Essentials as it was the free version offered by Tennable and included everything we needed to start doing scans. 
+Next, I opened the web UI for Nessus, It was time to make a Tenable account for Nessus. In this Project I used Nessus Essentials as it was the free version offered by Tenable and included everything we needed to start doing scans. 
 
 ![Nessus-project 3 ](https://github.com/JWALL000/Nessus/blob/main/Step%203%20-%20Opening%20the%20web%20UI%20with%20the%20ip%20of%20local%20host.PNG)
 
