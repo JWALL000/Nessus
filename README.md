@@ -47,7 +47,7 @@ I then waited for Nessus to finish scanning.
 
 ![Nessus-project 7 ](https://github.com/JWALL000/Nessus/blob/main/Step%207%20-%20Vulnerabilities%20show%20up.PNG)
 
-Now I could see my results. But I came to find out later on that this was indeed not a full scan - I fixed this issue later but It gave me an idea of how Nessus scans were carried out. 
+Now I could see my results, but I came to find out later on that this was indeed not a full scan - I fixed this issue later but It gave me an idea of how Nessus scans were carried out. 
 
 ![Nessus-project 8 ](https://github.com/JWALL000/Nessus/blob/main/Step%208%20-%20Scan%20still%20running%20-%20finding%20more%20severe%20vulnerabilites%20and%20giving%20them%20a%20CVSS%20score.PNG)
 
