@@ -24,7 +24,7 @@ Next, I then open the web UI for Nesus, It was time to make a Tennable account f
 
 ## Step 4. 
 
-Next, I had to wait for Nessus to finish intializing - This steo required some patience as it took a while for Nessus to get fully set up. 
+Next, I had to wait for Nessus to finish intializing - This step required some patience as it took a while for Nessus to get fully set up. 
 
 ![Nessus-project 4 ](https://github.com/JWALL000/Nessus/blob/main/Step%204%20-%20After%20creating%20my%20account%20-%20I%20had%20to%20wait%20for%20Nessus%20to%20finish%20intializing.PNG)
 
@@ -64,7 +64,37 @@ After that I extracted the files and span it up in VirtualBox.
 
 I then started to conduct the scan on Metaploitable but I noticed an issue - I didn't get back the results I expected. This was because I my network settings in my hypervisor were configured incorrectly. 
 
-I thought that If I enabled port forwarding on my Metapoitable2 instance, I would be able to conduct an authorized ssh scan using Nessus. However, this was 
+I thought that If I enabled port forwarding on my Metapoitable2 instance, I would be able to conduct an authorized ssh scan using Nessus. However, this was not the correct way to conduct a full in depth scan. 
+
+After chaning my Network settings in both my VMs for Nessus and Metasploitable2 - I then restarted both machines and got the new IP address for Metasloitable2. 
+The IP below states it is 10.0.2.15 - but after we changed our network settings to host-only network - I had the new correct IP address. 
+
+![Nessus-project 10](https://github.com/JWALL000/Nessus/blob/main/Step%2010%20-%20Scanning%20Metasploitable%202.PNG)
+
+
+## Step 10. 
+
+Here we can see the results of our scan and as expected, It was full ov dangerous vulnerabilities with high CVSS scores. 
+
+![Nessus-project 11](https://github.com/JWALL000/Nessus/blob/main/Step%2011%20-%20Results%20of%20scan.PNG)
+
+## Step 11. 
+
+In this step I exported our findings in the format of a report - this step gave me insight on how vulnerability reports can be structured in life. You can see below all of the vulnerabilites found and in the actual report it was many pages long! 
+
+![Nessus-project 12](https://github.com/JWALL000/Nessus/blob/main/Step%2011%20-%20Results%20of%20scan.PNG)
+
+
+## Conclusion 
+
+I thoroughly enjoyed this project and learning about the technologies I used. It was very insightful for me to see how vulnerability scans are conducted and how CVSS scores are genertated - I also liked the feature 
+built in to Nessus that allows you to export your findings in a report format which I imagine is very useful in real-world scenarios where you have to present you findings to clients. 
+
+Thank you for viewing Project, hopefully this scan provide some insights on how Nessus can be used to conduct vulnerabilty scans if you weren't familiar already - 
+
+Joseph W. 
+
+
 
 
 
